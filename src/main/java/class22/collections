@@ -1,0 +1,54 @@
+//very big problem with arrays;
+        //he arrays are fixed in size, once youve created an araay, and once you
+        //have stored, later on when you want to store more values you wont be able to
+          //do that.
+
+        names[3]="Bikal";
+        //once an array has been created, down the road you'can't change the size
+        //size is fixed.if i have thousands of elements will i end up
+        //writing extra logic loop and if else.if we have to remvoe the entity
+        //
+        //arrrays are not classes. everything you want to do you have to wrtie your
+        //own logic like in string class.here in arrays we don't have any such
+        //methods.
+        //limitations in array
+        //1.they are fixed in size
+        //2.theyare no build in methods present in the array
+        //java developers created classes they created lots of classes
+        //those classes don''t have those issues.
+
+array list is dynamic in size.
+is it going to allocate the memory consecutively
+in arraylist after the class name we use <> diamont ooperator we write name of the class whose elements
+and objects we want to store in it.we write the datatype.we are storing the object of e.g string class.
+Arraylist<Struing>
+<>these are called generics our code are not going to work properly.
+if you don't write angle brackets you will be able to store numbers, you will be able to store strings,
+you will create a mess. but who'ever is going to process the data the life of that person will be nightmare.
+we have to put restrictions. someone might not even know what kind of data youve store inside it. this is called
+generic arraylist
+before java 8 it was alot of problems it was allowed to put any datatypes
+now if someone tries to store anything other than string now we have restrictions.now we can only store string
+type of data.this is possible with the help of generics
+can we store primitive datatype if we specify it inside ? No
+
+//the biggest problem with arrays. the arrays are fixed in size.
+the size of arraylist is dynamic.
+if we add elements it will increase in size,'if we decrease the size it will shrink..its will adjust size in run time.
+
+1.you can waste space in array as we specifiy and we can waste the memorey if we don't use it array list is solving this problem
+2. there are no built in methods in arrays. for arraylist you have methods.
+//array list is designed for objects it takes 4 times more memoory..
+whenever focus is speed use arrays
+
+int this is primitive data type -> integer this is class call methods has instance methods and static methods
+integer i - new integer(12) it is deprecated.. given special values like string
+
+wrapper classes? still used int..it a wrapper inside in form of the class
+Double
+Boolean
+primitives cannot have methods..only class can have methods. primitives are limited
+in life..to perforn day to day operation they created wrapper class
+collection framework has thousands of class and is designed in a way to work with wrapper class
+and not the primitive.
+

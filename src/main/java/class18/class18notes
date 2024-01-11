@@ -1,0 +1,50 @@
+ MethodOverriding happens when same name method is present in parent as well as
+    in child class.
+
+    MethodOverriding:
+        When we have exact same methods in parent and child class. We call it
+        method Overriding.so child class has its own implementation of it own
+    Why should we learn about Overriding:
+        Method Overriding gives us a lot flexibility for example if we don't like
+        a method from the parent class we can override it/change.
+
+
+        Method Overriding:
+            it's when a sub class has the exact same method as parent method but a different
+            implementation.
+        What are the benefits of Method Overriding.
+            1) Flexibility(if you don't like something from the parent class you can override it).
+            2) Cleaner code
+        Rules:
+            1) if we want to override a method in the child class return type,method name
+            and parameters they must be same.
+            2) private methods can't be overridden.
+            3) We can't override constructors.
+            4) static methods  We can't override static method. which means we will not be able to write dynamic
+               code or will not able to use polymorphism.
+interview question
+               can we override the main method but we can overload the main method
+                can we overload the private method in same cass yes
+
+                final keyword no overriding in child class
+                overloading is possible with final
+
+                as final before the name parent class..no more extentions
+                no more inheritance
+
+
+
+
+        Syntax:
+            class Parent{
+
+            void eat(){
+            sout "Fish"
+            }
+            }
+           class Child extends Parent{
+
+           void eat(){
+           sout "Chicken"
+           }
+           }
