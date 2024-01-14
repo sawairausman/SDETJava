@@ -2,6 +2,7 @@ package GroupExcecise2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.TreeSet;
 
 public class T10 {
     public static void main(String[] args) {
@@ -22,8 +23,29 @@ public class T10 {
             }
 
         }
-        System.out.println(newList);
+        //to sort we use treeset
+        TreeSet<Integer> sortList = new TreeSet<>(newList);
+        System.out.println(sortList);
 
-
+        ArrayList<String> cars=new ArrayList<>();
+        cars.add("mercedes");
+        cars.add("bmw");
+        cars.add("audy");
+        cars.add("cadillac");
+        cars.add("bmw");
+        cars.add("audy");
+        cars.add("infinity");
+        for (int i=0;i<cars.size();i++){
+            for (int j = i+1; j < cars.size() ; j++) {
+                if (cars.get(i).equals(cars.get(j))){
+                    System.out.println("duplicate found: "+cars.get(i));
+                    cars.remove(j);
+                }
+            }
+        }
+        //TreeSet<String> sortedList = new TreeSet<>(cars);
+        System.out.println(cars);
     }
+
+
 }
