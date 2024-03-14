@@ -1,3 +1,5 @@
+package Practice3;
+
 import java.util.Arrays;
 
 public class PracticeMock5 {

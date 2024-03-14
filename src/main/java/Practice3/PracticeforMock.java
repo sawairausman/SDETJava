@@ -1,3 +1,5 @@
+package Practice3;
+
 public class PracticeforMock {
 
     public static void swap2Strings(String a, String b){

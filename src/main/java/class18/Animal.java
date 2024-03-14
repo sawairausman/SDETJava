@@ -38,8 +38,8 @@ class Dog extends Animal{
         System.out.println(str);
     }
 
-    public void printInfo(){
-        super.printInfo();
+    public void printInfoo(){
+        printInfo();
     }
 
 

@@ -1,3 +1,5 @@
+package Practice3;
+
 public class PracticeMock7 {
     public static void main(String[] args) {
         int[] arrays = {1, 2, 2, 5, 3, 2, 5, 2, 5, 9};

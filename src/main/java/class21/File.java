@@ -19,6 +19,8 @@ public abstract class File {
     }
 
 
+    public void createNewFile() {
+    }
 }
 
 class JavaFile extends File{

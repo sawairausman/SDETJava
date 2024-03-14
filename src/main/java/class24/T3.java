@@ -35,6 +35,7 @@ public class T3 {
    for(var e:map.entrySet()){
        if(e.getValue()>salary){
            empName=e.getKey();
+
            salary=e.getValue();
        }
 
